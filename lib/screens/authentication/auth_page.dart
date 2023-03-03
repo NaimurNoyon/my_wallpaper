@@ -20,7 +20,7 @@ class _AuthPageState extends State<AuthPage> {
           child: customButton(
               text: "Continue with Google",
               onTap: (){
-                nextPage(page: const HomeScreen(), context: context);
+                nextPageOnly(page: const HomeScreen(), context: context);
               },
               icon: const Icon(Icons.mail_outline,color: Colors.red)
           ),
